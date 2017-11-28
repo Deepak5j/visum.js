@@ -39,3 +39,4 @@ alert("Poped element: "+el);
 
 displayStack(s1);
  
+//============= Uing Stack Ends============================
