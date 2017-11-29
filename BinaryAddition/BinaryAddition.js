@@ -1,4 +1,4 @@
-//=============Function definion for binary addition START=================
+//=============Function definion for binary addition START=============
 function binaryAddition(a, b) {
     let i = a.length - 1; //last index for a
     let j = b.length - 1; //last index for b
@@ -44,8 +44,11 @@ function binaryAddition(a, b) {
     //reversing the result
     return result.split("").reverse().join("");
 }
-//=============Function definion for binary addition END=================
+//=============Function definion for binary addition END=============
+
+//=================Function usage START==============================
 let number1 = prompt("Enter binary number 1: ");
 let number2 = prompt("Enter binary number 2: ");
 let output = binaryAddition(number1, number2);
 alert(output);
+//=================Function usage START==============================
